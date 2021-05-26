@@ -88,12 +88,13 @@ form {
   /*flex-direction: column;
   flex-wrap: wrap;*/
   flex-flow: row wrap;
-  justify-content: space-between;
+  
 }
 
 form label {
   font-weight: bold;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 form select,
@@ -102,6 +103,7 @@ form input {
   width: 180px;
   flex-direction: column;
   margin-left: 10px;
+ justify-content: center;
 }
 
 form button {
